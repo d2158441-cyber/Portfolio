@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DARSHAN VYAS | Frontend Developer</title>
+  <meta name="description" content="Portfolio of Your Name, a frontend developer who builds clean, responsive websites.">
+
+  <!-- Font: Manrope from Google Fonts (falls back to system fonts if offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#hero" class="logo">DARSHAN VYAS</a>
+
+      <!-- CSS-only mobile menu: the hidden checkbox stores open/closed state -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="resume.pdf" class="btn btn-small">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section id="hero" class="hero container">
+      <p class="status">
+        <span class="status-dot"></span>
+        Student at Scaler School of Technology
+      </p>
+      <h1>Hi, I'm DARSHAN VYAS.<br>I build clean, responsive websites.</h1>
+      <p class="hero-text">
+        I'm a Computer Science student learning frontend development
+        by building real projects with HTML and CSS.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn">View my work</a>
+        <a href="https://github.com/your-username" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section container">
+      <h2>About me</h2>
+      <div class="about-grid">
+        <p>
+          I'm a Computer Science student who enjoys turning ideas into
+          working web pages. I learn best by building, breaking things,
+          and fixing them.
+        </p>
+        <p>
+          Right now I'm focused on layouts, responsive design and
+          small animations. Next, I want to learn JavaScript and React.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+
+        <article class="card">
+          <h3>Frontend</h3>
+          <ul class="pills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Flexbox</li>
+            <li>CSS Grid</li>
+            <li>Responsive design</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Tools</h3>
+          <ul class="pills">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+            <li>Chrome DevTools</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Currently learning</h3>
+          <ul class="pills pills-soft">
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1: replace the .thumb div with <img src="images/project-1.png" alt="..."> when you have a screenshot -->
+        <article class="project">
+          <div class="thumb thumb-1" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>Student-Marks-Manager</h3>
+            <p>A record-keeping program to add students and their marks, view all records with automatically assigned grades (A to F), and see class statistics such as the average and the topper.</p>
+            <ul class="tags">
+              <li>Java</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/d2158441-cyber/Student-Marks-Manager/blob/main/code.java" target="_blank" rel="noopener" >GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project">
+          <div class="thumb thumb-2" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>Responsive Landing Page</h3>
+            <p>A landing page that rearranges itself from phone to desktop using Grid and media queries.</p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS Flexbox</li>
+              
+            </ul>
+            <div class="project-links">
+              <a href="https://d2158441-cyber.github.io/Blue-kettel-Coffee-Landing-Page/" target="_blank" rel="noopener">Live demo</a>
+              <a href="https://github.com/d2158441-cyber/Blue-kettel-Coffee-Landing-Page" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project">
+          <div class="thumb thumb-3" aria-hidden="true"></div>
+          <div class="project-body">
+            <h3>CSS Animation Playground</h3>
+            <p>A set of animated components built with transitions, transforms and keyframes.</p>
+            <ul class="tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Keyframes</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://d2158441-cyber.github.io/CSS-Animation-Playground/" target="_blank" rel="noopener">Live demo</a>
+              <a href="https://github.com/d2158441-cyber/CSS-Animation-Playground" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION / EXPERIENCE ============ -->
+    <section id="journey" class="section container">
+      <h2>Education and journey</h2>
+      <ol class="timeline">
+        <li>
+          <h3>B.Tech Computer Science</h3>
+          <p class="timeline-meta">Scaler School of Technology, 2025 to present</p>
+        </li>
+        <li>
+          <h3>Web Development course</h3>
+          <p class="timeline-meta">2026, HTML, CSS and responsive design</p>
+          <p>Built a Flexbox game, a responsive site and this portfolio.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section container">
+      <h2>Let's build something together</h2>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <p>Have an internship, project or idea? Send me a message.</p>
+          <ul class="contact-links">
+            <li><a href="mailto:you@example.com"></a></li>
+            <li><a href="https://github.com/your-username" target="_blank" rel="noopener"></a></li>
+            <li><a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener"></a></li>
+          </ul>
+        </div>
+
+        <!-- Frontend-only form: opens the visitor's email app. No backend needed. -->
+        <!--<form class="form" action="mailto:you@example.com" method="post" enctype="text/plain">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn">Send message</button>
+        </form>-->
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 DARSHAN VYAS. Built with HTML and CSS.</p>
+      <ul class="footer-links">
+        <li><img src="https://img.icons8.com/tiny-glyph/1200/github.jpg" alt="github" style="height: 20px; width: 20px;"><a href="https://github.com/your-username" target="_blank" rel="noopener">  GitHub</a></li>
+        <li><img src="https://www.bing.com/th/id/OIP.uc7VlQehLwgjQELPU8UYWAHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=ImgAns&rm=2" alt="linkedin" style="height: 20px; width: 20px;"><a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">Linkedin</a></li>
+        <li><img src="https://www.bing.com/th/id/OIP.MpjuQHc_yZOK9vWabc4HNAHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=ImgAns&rm=2" alt="email" style="height: 20px; width: 20px;"><a href="mailto:you@example.com">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
